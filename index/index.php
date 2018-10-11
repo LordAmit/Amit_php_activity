@@ -35,6 +35,8 @@
 	<!-- The left side bar's data -->
     <aside id="left_side">
         <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
+		<ul><?php echo $G->getManufacturer(); ?></ul>
+		<ul><?php echo $G->getCost(); ?></ul>
 		<!-- Add a ul element that displays the manufacturer of the current gadget. -->
 		<!-- Add a ul element that displays the cost of the current gadget. -->
         <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
