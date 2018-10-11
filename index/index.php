@@ -21,7 +21,7 @@
                 <ul>NEW-Gadgets</ul>
 	</nav>
 
-<!-- Establishing a connection to the sql database -->
+<!-- Establishing a connection to the sql database --><!--here we go -->
 <?php
 
 	require_once('databaseConnection.php');
